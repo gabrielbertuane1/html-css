@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        nav {
+            background-color: rgb(88, 88, 88);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+            border-radius: 5px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(202, 202, 202);
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+        #assuntos {
+            text-align: center;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 7px;
+        }
+        article > aside {
+            background-color: rgb(148, 148, 148);
+        }
+        footer {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+            border-radius: 7px;
+        }
+        footer > p {
+            margin: 8px;
+        }
+        footer:hover {
+            background-color: gray;
+        }
+        .teste {
+            color: white;
+            text-decoration: none;
+        }
+        #bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+                <h2>TESTE</h2>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates ab ducimus soluta, minima autem voluptatem nisi ratione. Ipsa et dolore aperiam sit quod impedit libero, deleniti inventore, dolores quidem ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti recusandae aut mollitia tenetur esse. Repellendus, expedita! Deleniti, aliquam illo at ipsam voluptates alias velit quo repudiandae laborum, aliquid sequi itaque?</p>
+                <aside>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, labore? Consequatur eveniet culpa, sunt tempore quam odit quis, saepe voluptatibus doloremque nemo ad accusantium nostrum error sapiente ipsa tempora temporibus.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <a class="teste" href="https://mail.imic.com.br/#1">Desenvolvimento</a>
+        </p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
