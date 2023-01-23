@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.233);
+        }
+        #sexo {
+            width: 50%;
+            margin: 0 auto;
+        }
+        #esportes {
+            width: 50%;
+            margin: 0 auto;
+        }
+        #botoes {
+            width: 50%;
+            margin: 0 auto;
+            margin-top: 5px;
+        }
+        .btn:active {
+            background-color: blueviolet;
+        }
+        .btn:hover {
+            background-color: rgb(13, 72, 235);
+            color: rgb(255, 255, 255);
+            box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.486);
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+   <h1>Teste de Formulário </h1>
+   <form action="cadastro.php" method="get" autocomplete="on">
+    <fieldset id="sexo">
+        <legend>Sexo</legend>
+        <input type="radio" name="sexo" id="isxmas"> <label for="ismas">Masculino</label>
+        <input type="radio" name="sexo" id="isfem"> <label for="isfem">Feminino</label>
+    </fieldset>
+    <fieldset id="esportes">
+        <legend>Esportes Favorios</legend>
+        <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label><br>
+        <input type="checkbox" name="esbas" id="iesbas"> Basquete<br>
+        <input type="checkbox" name="esnat" id="ienat"> Natação<br>
+     </fieldset>
+
+        <p id="botoes">
+            <input class="btn" type="submit" value="Enviar">
+            <input class="btn" type="reset" value="Limpar">
+        </p>
+
+   </form>
+</body>
+</html>
